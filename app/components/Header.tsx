@@ -4,9 +4,10 @@ import { useState } from "react";
 import Image from "next/image";
 import linkedin from "../assets/linkedIn.png";
 import telegram from "../assets/telegram.png";
-import facebook from "../assets/facebook.png";
 import tiktok from '../assets/tiktok.png';
+import github from '../assets/github.png';
 import Link from "next/link";
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +36,9 @@ const Header = () => {
             <Link href="#portfolio" className="text-white hover:text-[#CEB67D] transition">
               Portfolio
             </Link>
+            <Link href="#skills" className="text-white hover:text-[#CEB67D] transition">
+              Skills
+            </Link>
             <Link href="#contact" className="text-white hover:text-[#CEB67D] transition">
               Contact
             </Link>
@@ -52,7 +56,17 @@ const Header = () => {
                 width={25}
               />
             </Link>
-            <Link href="#">
+            <Link href="https://www.linkedin.com/in/abditefera/">
+              <Image
+                src={github}
+                className="rounded-sm hover:opacity-80 transition"
+                alt="LinkedIn logo"
+                height={25}
+                width={25}
+              />
+            </Link>
+            
+            <Link href="https://www.tiktok.com/@design2develop">
               <Image
                 src={tiktok}
                 className="rounded-sm hover:opacity-80 transition"
@@ -114,6 +128,9 @@ const Header = () => {
             <Link href="#portfolio" className="block text-white hover:text-[#CEB67D] transition text-center">
               Portfolio
             </Link>
+            <Link href="#skills" className="block text-white hover:text-[#CEB67D] transition text-center">
+              Skills
+            </Link>
             <Link href="#contact" className="block text-white hover:text-[#CEB67D] transition text-center">
               Contact
             </Link>
@@ -122,7 +139,7 @@ const Header = () => {
           <div className="border-t w-1/2 mx-auto border-[#ceb67d]"></div>
           {/* Social Icons */}
           <div className="flex justify-center space-x-6 pt-4">
-            <Link href="#">
+            <Link href="https://www.linkedin.com/in/abditefera/">
               <Image
                 src={linkedin}
                 className="rounded-sm hover:opacity-80 transition"
@@ -131,16 +148,26 @@ const Header = () => {
                 width={25}
               />
             </Link>
-            <Link href="#">
+            <Link href="https://github.com/AbdiTefera1">
               <Image
-                src={facebook}
+                src={github}
                 className="rounded-sm hover:opacity-80 transition"
-                alt="Facebook logo"
+                alt="LinkedIn logo"
                 height={25}
                 width={25}
               />
             </Link>
-            <Link href="#">
+            
+            <Link href="https://www.tiktok.com/@design2develop">
+              <Image
+                src={tiktok}
+                className="rounded-sm hover:opacity-80 transition"
+                alt="Tiktok logo"
+                height={25}
+                width={25}
+              />
+            </Link>
+            <Link href="https://t.me/design2code1">
               <Image
                 src={telegram}
                 className="rounded-sm hover:opacity-80 transition"

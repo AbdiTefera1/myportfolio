@@ -15,7 +15,7 @@ const Hero = () => {
           </h1>
           <p className="text-lg lg:text-xl font-light">
             We transform your ideas into unique web projects that inspire both
-            you and your customers. Let’s build something great together!
+            you and your customers. Let&apos;s build something great together!
           </p>
           <Link href="#" passHref>
             <button className="border-2 border-[#ceb67d] text-lg font-sans px-6 py-3 rounded-md text-[#ceb67d] hover:bg-[#ceb67d] hover:text-black transition duration-300 ease-in-out">
@@ -45,7 +45,7 @@ const Hero = () => {
             Developer
           </h1>
           <p className="text-base lg:text-lg font-light leading-relaxed">
-            I'm a Full Stack Developer skilled in building Web and Mobile
+            I&apos;m a Full Stack Developer skilled in building Web and Mobile
             applications using Spring Boot, Node.js, Next.js, React.js, and
             Flutter. I enjoy tackling complex problems and developing system
             software.

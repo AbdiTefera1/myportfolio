@@ -1,7 +1,7 @@
 "use client";
 
-import { FaReact, FaNodeJs, FaJava, FaFigma } from "react-icons/fa";
-import { SiNextdotjs, SiFlutter, SiAdobe, SiMongodb, SiMysql, SiHtml5, SiCss3, SiJavascript, SiTypescript } from "react-icons/si";
+import { FaReact, FaNodeJs, FaJava, FaFigma, FaGit, FaResearchgate } from "react-icons/fa";
+import { SiNextdotjs, SiFlutter, SiMongodb, SiMysql, SiHtml5, SiCss3, SiJavascript, SiTypescript } from "react-icons/si";
 
 const skills = [
   {
@@ -35,17 +35,22 @@ const skills = [
     category: "UI/UX & Design",
     skills: [
       { name: "Figma", icon: <FaFigma /> },
-      { name: "Adobe XD", icon: <SiAdobe /> },
-      { name: "Sketch", icon: <SiAdobe /> },
       { name: "Wireframing", icon: <FaFigma /> },
       { name: "Prototyping", icon: <FaFigma /> },
+    ],
+  },
+  {
+    category: "Others",
+    skills: [
+      { name: "Git", icon: <FaGit /> },
+      { name: "Research", icon: <FaResearchgate /> },
     ],
   },
 ];
 
 const Skills = () => {
   return (
-    <section className="bg-gradient-to-r from-[#2e2f34] via-[#3c3d44] to-[#2e2f34] text-white py-16 relative">
+    <section id="skills" className="bg-gradient-to-r from-[#2e2f34] via-[#3c3d44] to-[#2e2f34] text-white py-16 relative">
       {/* Animated background pattern */}
       <div className="absolute top-0 left-0 w-full h-full bg-opacity-20 pointer-events-none">
         <div className="w-full h-full bg-fixed bg-[url('/path-to-pattern.svg')] opacity-10"></div>

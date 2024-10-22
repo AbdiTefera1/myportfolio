@@ -1,5 +1,4 @@
 import TabsComponent from './tabs/TabsComponent';
-import second from '../logo.png';
 import PortfolioCard from './PortfolioCard';
 import portfolioDesign from "../assets/Frame 2.jpg";
 import estate from '../assets/estate.png';

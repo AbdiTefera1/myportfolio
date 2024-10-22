@@ -13,7 +13,6 @@ interface TabsComponentProps {
 const TabsComponent = ({ items }: TabsComponentProps) => {
   const [selectedTab, setSelectedTab] = useState(0);
   const firstBtnRef = useRef<HTMLButtonElement | null>(null);
-  const [isDropdown, setIsDropdown] = useState(false);
 
   useEffect(() => {
     firstBtnRef.current?.focus(); // Optional chaining for safety

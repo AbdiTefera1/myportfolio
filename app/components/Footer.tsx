@@ -7,6 +7,7 @@ import tiktokIcon from '../assets/tiktok.png';
 import telegramIcon from '../assets/telegram.png';
 import instagramIcon from '../assets/instagram.png';
 import facebookIcon from '../assets/facebook.png';
+import github from '../assets/github.png';
 import x from '../assets/twitter.jpg';
 
 const Footer = () => {
@@ -50,6 +51,9 @@ const Footer = () => {
             <div className='flex justify-center md:justify-end gap-4'>
               <Link href="https://www.linkedin.com/in/abditefera/">
                 <Image src={linkedInIcon} alt="LinkedIn" width={30} height={30} />
+              </Link>
+              <Link href="https://github.com/AbdiTefera1">
+                <Image src={github} alt="LinkedIn" width={30} height={30} />
               </Link>
               <Link href="https://www.tiktok.com/@design2develop">
                 <Image src={tiktokIcon} alt="Tiktok" width={30} height={30} />
