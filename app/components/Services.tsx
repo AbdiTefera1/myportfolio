@@ -36,7 +36,7 @@ interface ServiceCardProps {
 
 const Services = () => {
   return (
-    <section className='bg-[#34353A] py-8 space-y-6 text-white flex items-center flex-col'>
+    <section id="service" className='bg-[#34353A] py-8 space-y-6 text-white flex items-center flex-col'>
       <h3 className="text-[#ceb67d] text-lg font-sans">Our Services</h3>
       <h1 className='text-3xl font-bold font-sans text-center'>Choose the Right Service for You</h1>
       <Image src={q} alt='underline svg' className='mb-4' />
@@ -82,9 +82,9 @@ const Services = () => {
       </div>
 
       {/* Fixed Contact Us Button */}
-      <a href="#contact" className='fixed bottom-5 right-5 bg-[#ceb67d] text-black font-bold py-3 px-5 rounded-md shadow-lg hover:bg-[#d6c77c] transition-all duration-300'>
+      {/* <a href="#contact" className='fixed bottom-5 right-5 bg-[#ceb67d] text-black font-bold py-3 px-5 rounded-md shadow-lg hover:bg-[#d6c77c] transition-all duration-300'>
         Contact Us
-      </a>
+      </a> */}
     </section>
   )
 }
