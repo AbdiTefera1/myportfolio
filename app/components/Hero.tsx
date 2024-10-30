@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="text-4xl lg:text-5xl font-sans font-bold leading-tight">
             Abdi Tefera<span className="text-[#CEB67D]">.</span>
           </h1>
-          <p className="text-lg lg:text-xl font-light">
+          <p className="text-lg lg:text-xl font-light">#2E2F34
             We transform your ideas into unique web projects that inspire both
             you and your customers. Let&apos;s build something great together!
           </p>

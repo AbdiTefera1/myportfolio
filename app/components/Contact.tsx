@@ -1,27 +1,28 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import phone from '../assets/phone.png';
-import mail from '../assets/email.png';
-import linkedIn from '../assets/linkedIn.png';
-import tiktok from '../assets/tiktok.png';
-import telegram from '../assets/telegram.png';
-import instagram from '../assets/instagram.png';
-import facebook from '../assets/facebook.png';
-import x from '../assets/twitter.jpg';
-import q from '../assets/q.svg';
+// import Image from 'next/image';
+// import Link from 'next/link';
+// import phone from '../assets/phone.png';
+// import mail from '../assets/email.png';
+// import linkedIn from '../assets/linkedIn.png';
+// import tiktok from '../assets/tiktok.png';
+// import telegram from '../assets/telegram.png';
+// import instagram from '../assets/instagram.png';
+// import facebook from '../assets/facebook.png';
+// import x from '../assets/twitter.jpg';
+// import q from '../assets/q.svg';
 
 const Contact = () => {
   return (
-    <section id="contact" className='bg-[#34353A] text-white flex flex-col items-center space-y-3 py-4 relative lg:h-lvh md:pt-4 px-4'>
+    <section id="contact" className='bg-[#34353A] text-white flex flex-col items-center space-y-3 py-4 relative md:pt-4 px-4'>
       {/* Title */}
       <h3 className="text-[#f0dba6] text-lg md:text-xl font-sans text-center tracking-wide mb-4">
         Contact Us
       </h3>
 
       {/* Contact Form */}
-      <div className='bg-[#3C3D44] flex flex-col space-y-3 w-full max-w-3xl md:p-6 lg:pr-40 rounded-md'>
-        <h3 className='text-center text-2xl font-bold'>Send Us A Message</h3>
-        <form className='flex flex-col space-y-4 lg:max-w-md'>
+      <div className='bg-[#3C3D44] flex flex-col space-y-3 w-full max-w-3xl md:p-6 mx-auto rounded-md'>
+        <h3 className='text-2xl font-bold md:text-left text-center pl-6'>Send Us A Message</h3>
+        <form action="https://getform.io/f/lajnkvka"
+          method="post" className='flex flex-col space-y-4 lg:max-w-md'>
           <input
             type="text"
             name="fullname"
@@ -61,13 +62,13 @@ const Contact = () => {
       </div>
 
       {/* Get In Touch Section */}
-      <div className='bg-[#464853] border-2 border-[#CEB67D] p-4 flex flex-col items-center justify-center rounded-md hover:shadow-lg hover:shadow-[#ceb67d] relative lg:absolute lg:top-52 md:right-12 lg:right-28'>
+      {/* <div className='bg-[#464853] border-2 border-[#CEB67D] p-4 flex flex-col items-center justify-center rounded-md hover:shadow-lg hover:shadow-[#ceb67d] relative lg:absolute lg:top-52 md:right-12 lg:right-28'>
         <h3 className='text-center text-lg font-bold mb-2'>Get In Touch</h3>
         <Image src={q} alt='underline svg' className='mb-4 w-1/2' />
         
-        <ul className='px-4 space-y-4 w-full'>
-          {/* Contact Methods */}
-          <li>
+        <ul className='px-4 space-y-4 w-full'> */}
+      {/* Contact Methods */}
+      {/* <li>
             <Link href="#" className='flex items-center gap-3 mb-2'>
               <Image src={phone} alt='phone icon' />
               +251 94 005 0709
@@ -80,10 +81,10 @@ const Contact = () => {
               abditefera11@gmail.com
             </Link>
             <div className='border-b-2 border-[#CEB67D] w-1/3'></div>
-          </li>
-          
-          {/* Social Media Links */}
-          <li>
+          </li> */}
+
+      {/* Social Media Links */}
+      {/* <li>
             <Link href="https://www.linkedin.com/in/abditefera/" className='flex items-center gap-3 mb-3'>
               <Image src={linkedIn} alt='LinkedIn icon' />
               LinkedIn
@@ -126,7 +127,7 @@ const Contact = () => {
             <div className='border-b-2 border-[#CEB67D] w-1/5 ml-16'></div>
           </li>
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 };
