@@ -15,7 +15,7 @@ export default function Home() {
     <Services/>
     <Portfolio/>
     <Skills />
-    <Contact/>
+{/*     <Contact/> */}
     <Footer/>
     </>
   );
