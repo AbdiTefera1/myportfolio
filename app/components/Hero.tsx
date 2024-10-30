@@ -13,9 +13,9 @@ const Hero = () => {
           <h1 className="text-4xl lg:text-5xl font-sans font-bold leading-tight">
             Abdi Tefera<span className="text-[#CEB67D]">.</span>
           </h1>
-          <p className="text-lg lg:text-xl font-light">#2E2F34
-            We transform your ideas into unique web projects that inspire both
-            you and your customers. Let&apos;s build something great together!
+          <p className="text-lg lg:text-xl font-light">
+          We transform your ideas into unique web projects that inspire both
+          you and your customers. Let&apos;s build something great together!
           </p>
           <Link href="#" passHref>
             <button className="border-2 border-[#ceb67d] text-lg font-sans px-6 py-3 rounded-md text-[#ceb67d] hover:bg-[#ceb67d] hover:text-black transition duration-300 ease-in-out">
