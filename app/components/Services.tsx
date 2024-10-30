@@ -9,10 +9,11 @@ interface ServiceCardProps {
     description: string; 
     priceRange: string; 
     services: string[]; 
+    status: string;
   }
   
  
-  const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, priceRange, services }) => {
+  const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, priceRange, services, status }) => {
     return (
   <div className='border-2 border-[#ceb67d] p-5 rounded-lg space-y-4 bg-[#2E2F34] transition-all duration-300 flex-1 m-2'>
     <h3 className='bg-[#373841] px-3 rounded-md font-sans font-bold py-2 text-center text-lg'>{title}</h3>
@@ -20,7 +21,7 @@ interface ServiceCardProps {
     <div className='border-[#ceb67d] border w-full'></div>
     <div className='flex justify-between items-center'>
       <span className='text-[#ceb67d] font-bold text-3xl'>{priceRange}</span>
-      <p className='font-serif'>Available</p>
+      <p className='font-serif'>{status}</p>
     </div>
     <div className='border-[#ceb67d] border w-full'></div>
     <ul className='text-sm font-serif font-light space-y-2'>
@@ -56,6 +57,7 @@ const Services = () => {
             "Document editing and PowerPoint preparation",
             "Logo design"
           ]}
+            status="Available"
         />
         {/* Card 2 */}
         <ServiceCard
@@ -71,6 +73,7 @@ const Services = () => {
             "Simple delivery apps",
             "More functionality, user interaction, and backend integration"
           ]}
+            status="Available"
         />
         {/* Card 3 */}
         <ServiceCard
@@ -78,6 +81,7 @@ const Services = () => {
           description="Suitable for enterprise solutions or complex mobile apps with multiple integrations."
           priceRange="10,000 - Above"
           services={["We build organization-level systems"]}
+           status="Coming Soon"
         />
       </div>
 
