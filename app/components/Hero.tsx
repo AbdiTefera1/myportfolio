@@ -18,7 +18,7 @@ const Hero = () => {
           We transform your ideas into unique web projects that inspire both
           you and your customers. Let&apos;s build something great together!
           </p>
-          <Link href="#" passHref>
+          <Link href="#footer" passHref>
             <button className="border-2 border-[#ceb67d] text-lg font-sans px-6 py-3 rounded-md text-[#ceb67d] hover:bg-[#ceb67d] hover:text-black transition duration-300 ease-in-out">
               Get Started Here
             </button>
