@@ -50,7 +50,6 @@ const Services = () => {
           services={[
             "Web and mobile app design",
             "Personal websites (no backend)",
-            "Small mobile apps",
             "Research services",
             "API integration",
             "Software component development",

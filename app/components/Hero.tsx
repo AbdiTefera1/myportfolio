@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import hero from "../assets/hero_pictu.jpg";
+// import hero from "../assets/abdi2.jpg";
+import hero from "../assets/hero1.jpeg";
 import vector from "../assets/Vector.svg";
 
 const Hero = () => {

@@ -1,12 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
-import linkedin from "../assets/linkedIn.png";
-import telegram from "../assets/telegram.png";
-import tiktok from '../assets/tiktok.png';
-import github from '../assets/github.png';
 import Link from "next/link";
+import { FaGithub, FaLinkedin, FaTelegram, FaTiktok } from "react-icons/fa";
 
 
 const Header = () => {
@@ -48,41 +44,17 @@ const Header = () => {
           {/* Social Icons */}
           <div className="flex space-x-3">
             <Link href="https://www.linkedin.com/in/abditefera/">
-              <Image
-                src={linkedin}
-                className="rounded-sm hover:opacity-80 transition"
-                alt="LinkedIn logo"
-                height={25}
-                width={25}
-              />
+              <FaLinkedin size={25} className="text-white hover:opacity-80"/>
             </Link>
             <Link href="https://www.linkedin.com/in/abditefera/">
-              <Image
-                src={github}
-                className="rounded-sm hover:opacity-80 transition"
-                alt="LinkedIn logo"
-                height={25}
-                width={25}
-              />
+              <FaGithub size={25} className="text-white hover:opacity-80"/>
             </Link>
             
             <Link href="https://www.tiktok.com/@design2develop">
-              <Image
-                src={tiktok}
-                className="rounded-sm hover:opacity-80 transition"
-                alt="Tiktok logo"
-                height={25}
-                width={25}
-              />
+              <FaTiktok size={25} className="text-white hover:opacity-80"/>
             </Link>
             <Link href="https://t.me/design2code1">
-              <Image
-                src={telegram}
-                className="rounded-sm hover:opacity-80 transition"
-                alt="Telegram logo"
-                height={25}
-                width={25}
-              />
+              <FaTelegram size={25} className="text-white hover:opacity-80"/>
             </Link>
           </div>
         </div>
@@ -140,41 +112,17 @@ const Header = () => {
           {/* Social Icons */}
           <div className="flex justify-center space-x-6 pt-4">
             <Link href="https://www.linkedin.com/in/abditefera/">
-              <Image
-                src={linkedin}
-                className="rounded-sm hover:opacity-80 transition"
-                alt="LinkedIn logo"
-                height={25}
-                width={25}
-              />
+              <FaLinkedin size={25} className="text-white hover:opacity-80"/>
             </Link>
             <Link href="https://github.com/AbdiTefera1">
-              <Image
-                src={github}
-                className="rounded-sm hover:opacity-80 transition"
-                alt="LinkedIn logo"
-                height={25}
-                width={25}
-              />
+              <FaGithub size={25} className="text-white hover:opacity-80"/>
             </Link>
             
             <Link href="https://www.tiktok.com/@design2develop">
-              <Image
-                src={tiktok}
-                className="rounded-sm hover:opacity-80 transition"
-                alt="Tiktok logo"
-                height={25}
-                width={25}
-              />
+              <FaTiktok size={25} className="text-white hover:opacity-80"/>
             </Link>
             <Link href="https://t.me/design2code1">
-              <Image
-                src={telegram}
-                className="rounded-sm hover:opacity-80 transition"
-                alt="Telegram logo"
-                height={25}
-                width={25}
-              />
+              <FaTelegram size={25} className="text-white hover:opacity-80"/>
             </Link>
           </div>
         </div>
